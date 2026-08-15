@@ -1,0 +1,111 @@
+.header{
+            
+            height: auto;
+            font-size: 30px;
+            font-weight: bold;
+            font-style: italic;
+            color: #dcdfe4;
+            display: flex;
+            align-items: center;
+            min-height: 120px;
+            padding: 10px;
+            overflow: hidden;
+            width: 100%;
+            box-sizing: border-box;
+        
+        }
+        .menu{
+            height : auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 120px;
+            padding: 10px;
+            overflow: visible;
+            width: 100%;
+            box-sizing: border-box;
+            
+        }
+
+    
+        .left{
+            width: 100%;
+            display: flex;
+            flex-direction: column; 
+            font-weight: bold;
+        }
+        .right{
+            flex: 1;
+            text-align: center;
+            font-weight: bold;
+            color: #c7cfbe;
+            
+        }
+       .logo{
+        width: 150px;
+       }
+
+       .title{
+        flex : 1;
+        text-align: center;
+       }
+       .menu a{
+        text-decoration: none;
+        color: #e3e7eb; 
+        font-weight: bold; 
+       }
+
+       .main{
+        display: flex;
+        height : auto;
+       }
+
+       .left a{
+        text-decoration: none;
+        color: #dfe5d9;
+        text-size-adjust: 500px;
+       }
+
+       .left iframe {
+        width : 100%;
+        height: 100%;
+        border: none;
+       }
+
+       .right iframe{
+        width: 100%;
+        height: 100%;
+        border: none;
+
+        
+       }
+
+       
+       .Nav-btn {
+        display : inline-block;
+        background-color: #7B75C9;
+        color : #80A4D4;
+        padding : 10px 20px;
+        margin : 5px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold; 
+       }
+
+       .Nav-btn:hover {
+        background-color:rgb(47, 47, 135) ;
+       }
+
+       .Bg-img {
+        width: 100%;
+        min-height : 200px;
+
+        background-image: linear-gradient(rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0.20)), url("Library.jpg");
+
+        background-size: cover ;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        padding: 20px;
+        box-sizing: border-box;
+       }
