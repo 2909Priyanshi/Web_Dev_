@@ -1,10 +1,19 @@
+.h {
+     width: 100%;
+        min-height : 100hv;
+        background : radial-gradient(circle at 50% 50%, #D8C3A5,#8B6F47 50%,#2C1E14 100%);
+
+        padding: 20px;
+        box-sizing: border-box;
+}
+
+
 .header{
             
             height: auto;
             font-size: 30px;
             font-weight: bold;
             font-style: italic;
-            color: #dcdfe4;
             display: flex;
             align-items: center;
             min-height: 120px;
@@ -38,7 +47,7 @@
             flex: 1;
             text-align: center;
             font-weight: bold;
-            color: #c7cfbe;
+           
             
         }
        .logo{
@@ -50,8 +59,7 @@
         text-align: center;
        }
        .menu a{
-        text-decoration: none;
-        color: #e3e7eb; 
+        text-decoration: none; 
         font-weight: bold; 
        }
 
@@ -62,8 +70,8 @@
 
        .left a{
         text-decoration: none;
-        color: #dfe5d9;
         text-size-adjust: 500px;
+        color: rgb(218, 148, 91);
        }
 
        .left iframe {
@@ -83,8 +91,8 @@
        
        .Nav-btn {
         display : inline-block;
-        background-color: #7B75C9;
-        color : #80A4D4;
+        background-color: #6a411d;
+        color : #aa8659;
         padding : 10px 20px;
         margin : 5px;
         border-radius: 8px;
@@ -93,19 +101,7 @@
        }
 
        .Nav-btn:hover {
-        background-color:rgb(47, 47, 135) ;
+        background-color:rgb(147, 87, 20) ;
        }
 
-       .Bg-img {
-        width: 100%;
-        min-height : 200px;
-
-        background-image: linear-gradient(rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0.20)), url("Library.jpg");
-
-        background-size: cover ;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        padding: 20px;
-        box-sizing: border-box;
-       }
+       
